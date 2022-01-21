@@ -1,0 +1,45 @@
+html,
+body,
+#root,
+.App {
+  height: 100%;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  font-family: sans-serif;
+  justify-content: space-around;
+  text-align: center;
+}
+
+.App > div {
+  align-items: center;
+  border: 1px dashed;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: -1px;
+  padding: 15px;
+}
+
+.App > div:first-child {
+  background-color: lightblue;
+}
+
+.App > div:nth-child(2) {
+  background-color: lightcoral;
+}
+
+.App > div:nth-child(3) {
+  background-color: lightgreen;
+}
+
+.App > div:last-child {
+  background-color: mediumpurple;
+}
+
+button {
+  width: 150px;
+}
